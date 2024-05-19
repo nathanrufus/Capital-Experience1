@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* .app{
+  height: 100%;
+  width: 100%;
+  background: rgb(34, 31, 31);
+} */
+.select {
+  @apply text-xl text-white;
+}
+/* home_bg */
+.home_bg {
+  @apply bg-gray-700 max-w-screen-2xl md:px-14 p-4;
+}
+.region{
+  @apply text-3xl text-white font-semibold mb-3;
+}
+.items{
+  @apply text-green-950 font-semibold hover:text-pink-800 underline ;
+}
